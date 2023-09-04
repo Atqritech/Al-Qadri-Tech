@@ -1,0 +1,185 @@
+
+/* Al Qadri */
+.lgt1{
+  position: absolute;
+  top: 10px;
+  margin-left:70px;
+  color: tomato;
+  font-family: '';
+  font-size: 32px;
+  font-weight: bolder;
+  font-family:myFirstFont;
+  }
+
+/* tech colour */
+.tt{
+  position: absolute;
+  top: 40px;
+  margin-left: 130px;
+  font-size: 25px;
+  }
+ 
+/* Home, About Us, Courses */
+.nav-item :hover {
+  color:tomato !important;
+  font-size: 32px;
+}
+
+/* Learn */
+.lgt3{
+  position: absolute;
+  top: 20%;
+  margin-left:0px !important;
+  font-size: 100px;
+  font-weight: bolder;
+  font-family:myFirstFont;
+ }
+
+/* Learn hover */
+ .lgt3:hover{
+  color: blue;
+  font-size: 150px;
+  font-weight: bolder;
+  font-family:myFirstFont;
+margin-left: 50%;
+ }
+  
+  /* Html, Css, Javascript, Bootstrap, & Github, */
+  .txt1{
+    width: 500px;
+    position: absolute;
+    top:40%;
+    margin-left: 15%;
+   color: green;
+   text-align:start;
+  }
+
+  /* Html, Css, Javascript, Bootstrap, & Github hover */
+  .htm:hover{
+    width: 400px;
+    color:tomato;
+    font-size: 50px;
+  }
+  
+  /* With Al Qadri Tech */
+.lgt2{
+  position: absolute;
+  top: 55%;
+  color: tomato;
+  font-size: 32px;
+  font-weight: bolder;
+  font-family:myFirstFont;
+margin-left: 285px;
+ }
+
+/* With Al Qadri Tech hover */
+ .lgt2:hover{
+  color: blue;
+  font-size: 50px;
+  font-weight: bolder;
+  font-family:myFirstFont;
+ margin-left: 15%;
+ }
+
+  /* scroling image */
+  .d-block{
+    width: 100%;
+    height: 400px;
+  }
+ 
+footer{
+  margin-top: 02%;
+}
+
+
+
+  @font-face {
+      font-family: myFirstFont;
+      src: url(/ADLaM_Display/ADLaMDisplay-Regular.ttf);
+    }
+
+    /* Media Query */
+ 
+/* navbar */
+@media only screen and (max-width: 600px) {
+  .navbar-toggler{
+      margin-left: auto;
+     
+    }
+    }
+   
+
+    
+
+  /* Learn */
+  @media only screen and (max-width: 600px) {
+    .lgt3 {
+       position: absolute;
+       top: 36%;
+      font-size: 22px;
+      font-weight: bolder;
+    }
+  }
+
+/* Learn hover */
+  /* @media only screen and (max-width: 600px) {
+    .lgt3:hover {
+       position: absolute;
+       top: 25%;
+      font-size: 35px;
+    }
+  } */
+
+  /* Html, Css, Javascript, Bootstrap, & Github, */
+  @media only screen and (max-width: 600px){
+  .txt1{
+    width: 300px;
+    position: absolute;
+    top:41%;
+    margin-left: 15%;
+   color: green;
+  }
+  }
+
+  /* Html, Css, Javascript, Bootstrap, & Github hover
+  @media only screen and (max-width: 600px){
+    .htm:hover{
+    width: 400px;
+    color:tomato;
+    font-size: 50px;
+  }
+} */
+  
+  /* With Al Qadri Tech */
+  @media only screen and (max-width: 600px){
+    .lgt2{
+  position: absolute;
+  top: 52%;
+  color: tomato;
+  font-size: 32px;
+  font-weight: bolder;
+  font-family:myFirstFont;
+margin-left: 10%;
+ }
+ }
+
+/* With Al Qadri Tech hover */
+/* @media only screen and (max-width: 600px){
+  .lgt2:hover{
+  color: blue;
+  font-size: 50px;
+  font-weight: bolder;
+  font-family:myFirstFont;
+margin-left: 15%;
+ }
+} */
+
+   /* image Scroling */
+  @media only screen and (max-width: 600px) {
+    .d-block {
+      margin-left: 10px;
+    margin-top: 300px;
+      width: 100%;
+      height: 250px;
+    }
+  }
